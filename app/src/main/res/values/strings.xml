@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KeepRemember</string>
+    <array name="priorities">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </array>
+</resources>

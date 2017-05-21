@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/checkBoxCompleted"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/textViewTime"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textViewTime"
+        app:srcCompat="@drawable/unmark" />
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/checkBoxCompleted"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_toLeftOf="@+id/checkBoxCompleted"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textViewPriority"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSubject"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/textViewTime"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewPriority"
+        android:layout_marginBottom="2dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?android:attr/actionModePasteDrawable"
+        android:layout_alignTop="@+id/textViewSubject"
+        android:layout_above="@+id/textViewPriority"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
