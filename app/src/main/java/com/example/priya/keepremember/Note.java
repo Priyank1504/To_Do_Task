@@ -1,7 +1,7 @@
 package com.example.priya.keepremember;
 
 /**
- * Created by Priyank Verma on 5/17/2017.
+ * Created by Priyank Verma  on 5/17/2017.
  */
 
 public class Note {
